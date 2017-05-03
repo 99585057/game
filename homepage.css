@@ -1,0 +1,247 @@
+#main{
+  width :100%;
+  height: 1200px;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+body{
+  background-image: url(back.jpg);
+  background-size: cover;
+}
+
+#header{
+  width: inherit;
+  height: 140px;
+  margin-top: 0px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+#header>h1{
+  font-size: 100px;
+  margin-top: 30px;
+  text-align: center;
+  color: #faebd7;
+  font-kerning: normal;
+  font-variant: small-caps;
+  font-language-override: normal;
+  text-shadow: 0px 6px 8px red;
+  animation: myheader 5s infinite alternate;
+}
+@keyframes myheader {
+  from{color:#faebd7;}
+  25%{color: #6cbb3c;}
+  55%{color: #f9966b;}
+  to{color: #faafbe;}
+}
+
+#mainnav{
+  width: block;
+  height: 40px;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: #d1d0ce;
+}
+#mainnav:hover{
+  background-color: #82cafa;
+}
+#navbar
+{
+  width:100%;
+  height: 40px;
+  margin-left: -8px;
+  margin-right: -8px;
+
+}
+.nav>li{
+  display: inline;
+  position: relative;
+  line-height: 45px;
+}
+.nav>li>a{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: -3px;
+  width: 150px;
+  line-height: 40px;
+  height:38px;
+  margin-top: -30px;
+  font-family: cursive;
+}
+.nav>li>a:hover
+{
+  background-color:#2b1b17;
+  text-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 3px 4px black;
+  color: white;
+}
+
+#body
+{
+  width: inherit;
+  height: 900px;
+
+}
+#subbody1
+{
+  float: left;
+  margin-left: 10px;
+  width:430px;
+  height: inherit;
+}
+
+#data1
+{
+  width: 430px;
+  height:400px;
+  margin-top: 20px;
+  background-image: url(watch.png);
+  background-size: 430px 400px;
+  animation: imagescroll 4s infinite alternate;
+}
+
+#data2
+{
+  width: 430px;
+  height:400px;
+  margin-top: 20px;
+  background-image: url(car.jpg);
+  background-size: 430px 400px;
+  animation: imagescroll2 4s infinite alternate;
+}
+#data1:hover{
+  opacity: .7;
+}
+#data2:hover{
+  opacity: .7;
+}
+@keyframes imagescroll {
+    from{background-image: url(watch.png);}
+    to{background-image: url(car.jpg);}
+}
+@keyframes imagescroll2 {
+    from{background-image: url(car.jpg);}
+    to{background-image: url(watch.png);}
+}
+
+#subbody1>p{
+  font-size: 25px;
+  color: #faebd7;
+  text-shadow: 0px 4px 6px red;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: cursive;
+
+}
+
+#subbody2
+{
+  float: left;
+  width: 430px;
+  margin-left: 10px;
+  height: inherit;
+}
+#subbody2>dl>dt{
+  font-size: 30px;
+  color: #faebd7;
+  margin-top: 20px;
+  margin-left: 4px;
+  font-family: monospace;
+}
+#subbody2>dl>dt:hover{
+  color: #fc6c85;
+}
+
+#subbody2>dl>dd{
+  font-size: 20px;
+  color: #faebd7;
+  margin-left: 4px;
+  margin-top: 10px;
+  font-family:sans-serif;
+}
+
+#subbody2>dl>dd:hover{
+color: #eac117;
+
+}
+
+#subbody3
+{
+  float: left;
+  width: 435px;
+  margin-left: 5px;
+  height: inherit;
+}
+#subbody3>ul>label{
+  font-size: 35px;
+  color: #ffffcc;
+  margin-left: 20px;
+  font-family: monospace;
+}
+#subbody3>ul>label:hover{
+  color: #98afc7;
+}
+#subbody3>ul>li{
+  font-size: 22px;
+  color: #ffffcc;
+  list-style: none;
+  margin-left: 20px;
+  line-height: 60px;
+  border-bottom: 2px solid black;
+  border-color: yellow;
+  margin-right: 130px;
+}
+#subbody3>ul>li:hover{
+  color: #008080;
+
+}
+
+#subbody3>dl>dt{
+  font-size: 30px;
+  color: #ffffcc;
+  font-family: monospace;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+#subbody3>dl>dt:hover{
+  color: #98afc7;
+}
+#subbody3>dl>dd{
+  font-size: 22px;
+  color: #ffffcc;
+  font-family: sans-serif;
+  margin-left: 60px;
+  margin-top: 30px;
+  line-height: 10px;
+}
+#subbody3>dl>dd:hover{
+  color: #008080;
+}
+#footer
+{
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-bottom: 0px;
+  width:block;
+  height: 110px;
+  background-color: #ffcba4;
+}
+#p1{
+  margin-left: 500px;
+  font-size: 25px;
+  color:black ;
+  cursor: pointer;
+  margin-top: 40px;
+  text-underline-position: below;
+}
+
+#p3{
+  margin-left: 510px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  margin-top: 45px;
+  text-underline-position: below;
+}
